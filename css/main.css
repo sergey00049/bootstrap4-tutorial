@@ -50,6 +50,10 @@ body {
     margin-top: 20px;
 }
 
+.jumbotron button {
+    margin: 0 auto;
+}
+
 .padding {
     padding-bottom: 2em;
 }
@@ -82,4 +86,13 @@ body {
 .fa-code, .fa-bold, .fa-css3 {
     font-size: 4em;
     margin: 1em;
+}
+
+#fixed {
+    height: 400px;
+    border-top: 4pxsolid #f0f0f0;
+    border-bottom: 4px solid #f0f0f0;
+    background: url("../img/bg.jpg") no-repeat center center fixed;
+    background-blend-mode: lightblue;
+    background-size: cover;
 }
